@@ -2,7 +2,14 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Act9" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Edge-to-edge support -->
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+
+        <!-- Set app background -->
+        <item name="android:windowBackground">@color/blue</item>
     </style>
 
     <style name="Theme.Act9" parent="Base.Theme.Act9" />
